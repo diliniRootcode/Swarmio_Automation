@@ -1,6 +1,8 @@
 package com.Swarmio.Pages;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
@@ -67,18 +69,19 @@ public class BaseClass {
 	
 	
 	@AfterMethod
-	public void tearDownMethod(ITestResult result)
+	public void tearDownMethod(ITestResult result) throws FileNotFoundException, IOException
 	{
 		
 		Reporter.log("Test is about to end", true);
 		
 		if(result.getStatus()==ITestResult.FAILURE)
 		{
-			logger.fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshots(driver)).build());
+			
+			logger.fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromBase64String(Helper.captureScreenshots(driver)).build());
 		}
 		else if(result.getStatus()== ITestResult.SUCCESS)
 		{
-			logger.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshots(driver)).build());
+			logger.pass("Test Passed", MediaEntityBuilder.createScreenCaptureFromBase64String(Helper.captureScreenshots(driver)).build());
 
 		}
 		

@@ -5,7 +5,9 @@
     <classes>
       <class name="com.Swarmio.TestCases.Swarmio_Login_Test">
         <methods>
-          <include name="CheckEmailValidation"/>
+          <include name="LogintoApplication"/>
+          <include name="CheckIncorrectEmailValidation"/>
+          <include name="CheckEmptyPasswordValidation"/>
           <include name="tearDownMethod"/>
           <include name="setUpexcelSuite"/>
           <include name="setup"/>

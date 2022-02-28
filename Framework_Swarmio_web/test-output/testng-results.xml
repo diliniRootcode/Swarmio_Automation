@@ -32,12 +32,12 @@
       <![CDATA[Test completed >> Report Generated]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-02-24T14:14:22 IST" name="Default suite" finished-at="2022-02-24T14:16:00 IST" duration-ms="97822">
+  <suite started-at="2022-02-28T15:26:18 IST" name="Default suite" finished-at="2022-02-28T15:27:51 IST" duration-ms="93862">
     <groups>
     </groups>
-    <test started-at="2022-02-24T14:14:22 IST" name="Default test" finished-at="2022-02-24T14:16:00 IST" duration-ms="97822">
+    <test started-at="2022-02-28T15:26:18 IST" name="Default test" finished-at="2022-02-28T15:27:51 IST" duration-ms="93862">
       <class name="com.Swarmio.TestCases.Swarmio_Login_Test">
-        <test-method is-config="true" signature="setUpexcelSuite()[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:14:22 IST" name="setUpexcelSuite" finished-at="2022-02-24T14:14:22 IST" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="setUpexcelSuite()[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:26:17 IST" name="setUpexcelSuite" finished-at="2022-02-28T15:26:18 IST" duration-ms="577" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and test is getting ready]]>
@@ -47,7 +47,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpexcelSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:14:23 IST" name="setup" finished-at="2022-02-24T14:14:55 IST" duration-ms="32208" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:26:18 IST" name="setup" finished-at="2022-02-28T15:26:46 IST" duration-ms="28288" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tring to start Broswser and Getting application ready]]>
@@ -57,11 +57,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CheckIncorrectEmailValidation()[pri:1, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:14:55 IST" name="CheckIncorrectEmailValidation" finished-at="2022-02-24T14:15:06 IST" duration-ms="11595" status="PASS">
+        <test-method signature="CheckIncorrectEmailValidation()[pri:1, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:26:46 IST" name="CheckIncorrectEmailValidation" finished-at="2022-02-28T15:26:57 IST" duration-ms="11643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckIncorrectEmailValidation -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:15:06 IST" name="tearDownMethod" finished-at="2022-02-24T14:15:07 IST" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:26:57 IST" name="tearDownMethod" finished-at="2022-02-28T15:26:58 IST" duration-ms="524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="CheckEmptyPasswordValidation()[pri:2, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:15:07 IST" name="CheckEmptyPasswordValidation" finished-at="2022-02-24T14:15:18 IST" duration-ms="11441" status="PASS">
+        <test-method signature="CheckEmptyPasswordValidation()[pri:2, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:26:58 IST" name="CheckEmptyPasswordValidation" finished-at="2022-02-28T15:27:09 IST" duration-ms="11412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckEmptyPasswordValidation -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:15:18 IST" name="tearDownMethod" finished-at="2022-02-24T14:15:19 IST" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:27:09 IST" name="tearDownMethod" finished-at="2022-02-28T15:27:10 IST" duration-ms="358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,11 +99,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method signature="LogintoApplication()[pri:3, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:15:19 IST" name="LogintoApplication" finished-at="2022-02-24T14:16:00 IST" duration-ms="41447" status="PASS">
+        <test-method signature="LogintoApplication()[pri:3, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:27:10 IST" name="LogintoApplication" finished-at="2022-02-28T15:27:51 IST" duration-ms="41452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogintoApplication -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-24T14:16:00 IST" name="tearDownMethod" finished-at="2022-02-24T14:16:00 IST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Swarmio.TestCases.Swarmio_Login_Test@4562e04d]" started-at="2022-02-28T15:27:51 IST" name="tearDownMethod" finished-at="2022-02-28T15:27:51 IST" duration-ms="160" status="PASS">
           <params>
             <param index="0">
               <value>

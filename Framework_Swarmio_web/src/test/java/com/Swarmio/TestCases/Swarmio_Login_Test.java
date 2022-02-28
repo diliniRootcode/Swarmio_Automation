@@ -1,6 +1,9 @@
 package com.Swarmio.TestCases;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import org.openqa.selenium.support.PageFactory;
 
 import com.Swarmio.Pages.BaseClass;
@@ -12,7 +15,7 @@ public class Swarmio_Login_Test extends BaseClass {
 	
 	
 	@Test(priority = 1 )
-	public void CheckIncorrectEmailValidation() throws InterruptedException
+	public void CheckIncorrectEmailValidation() throws InterruptedException, FileNotFoundException, IOException
 	{
 		logger= report.createTest("Login to Swarmio with incorrect email");
 		
@@ -28,7 +31,7 @@ public class Swarmio_Login_Test extends BaseClass {
 	}
 	
 	@Test(priority = 2 )
-	public void CheckEmptyPasswordValidation() throws InterruptedException
+	public void CheckEmptyPasswordValidation() throws InterruptedException, FileNotFoundException, IOException
 	{
 		logger= report.createTest("Login to Swarmio without password");
 		
@@ -44,7 +47,7 @@ public class Swarmio_Login_Test extends BaseClass {
 	}
 	
 	@Test(priority = 3 )
-	public void LogintoApplication() throws InterruptedException
+	public void LogintoApplication() throws InterruptedException, FileNotFoundException, IOException
 	{
 		
 		logger= report.createTest("Login to Swarmio");
